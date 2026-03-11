@@ -1,5 +1,12 @@
-# Fully Connected Neural Networks (FCNN) Experiments  
-Tabular Modelling, Vision Learning, and Deep Network Robustness
+# Fully Connected Neural Networks (FCNN) Experiments
+### Tabular Modelling, Vision Learning, and Deep Network Robustness
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FCNN-green)
+
+---
 
 ## Overview
 
@@ -391,16 +398,31 @@ Visual outputs such as:
 
 - weight heatmaps
 - gradient norm plots
-- training curves
 
 are stored in the `figures/` directory.
 
 Experiment outputs and logs are stored in the `results/` directory.
 
+## Example Results
+
+### MNIST Weight Visualization
+
+![Neuron Heatmap](figures/weight_heatmaps/neuron1.png)
+
+These heatmaps show the weight patterns learned by neurons in the first hidden layer of the FCNN.
+
 ---
 
-# Author
+### Gradient Norm Comparison
 
-Basharat
+![Gradient Norm](figures/gradient_norm_plots/relu_gradients.png)
 
+This plot compares gradient magnitudes between sigmoid networks and ReLU + BatchNorm networks, demonstrating the vanishing gradient problem.
+
+---
+
+## Author
+
+Basharat  
+B.Tech Computer Science & Engineering  
 Focus Area: Artificial Intelligence, Machine Learning, and Data Science
