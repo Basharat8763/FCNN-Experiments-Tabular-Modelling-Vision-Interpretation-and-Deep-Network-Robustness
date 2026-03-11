@@ -405,19 +405,41 @@ Experiment outputs and logs are stored in the `results/` directory.
 
 ## Example Results
 
-### MNIST Weight Visualization
+### Gradient Norm Comparison (Vanishing Gradient Demonstration)
 
-![Neuron Heatmap](figures/weight_heatmaps/neuron1.png)
+![Gradient Norm Comparison](figures/gradient_norm_plots/gradient_norm_comparison.png)
 
-These heatmaps show the weight patterns learned by neurons in the first hidden layer of the FCNN.
+This plot compares the gradient magnitude of the **first layer** during training for two deep neural network configurations:
+
+- **Sigmoid activation network**
+- **ReLU + Batch Normalisation network**
+
+Observations:
+
+- The sigmoid-based network shows **rapidly shrinking gradient norms**, approaching values close to zero.
+- This demonstrates the **vanishing gradient problem**, where early layers receive almost no updates.
+- The ReLU + BatchNorm network maintains **stable gradient magnitudes**, allowing effective learning across layers.
+
+This experiment clearly illustrates why **deep networks with sigmoid activations struggle to train**, while modern architectures rely on **ReLU and normalization techniques**.
 
 ---
 
-### Gradient Norm Comparison
+### MNIST First Layer Weight Visualization
 
-![Gradient Norm](figures/gradient_norm_plots/relu_gradients.png)
+![MNIST Neuron Heatmaps](figures/weight_heatmaps/mnist_neuron_heatmaps.png)
 
-This plot compares gradient magnitudes between sigmoid networks and ReLU + BatchNorm networks, demonstrating the vanishing gradient problem.
+The figure above visualizes the **incoming weights of 10 neurons** from the first hidden layer of the Fully Connected Neural Network trained on the MNIST dataset.
+
+Each neuron receives **784 weights**, corresponding to the **28×28 input pixels** of an image.  
+These weights were reshaped into **28×28 matrices** and plotted as heatmaps.
+
+Observations:
+
+- Some neurons highlight **circular patterns**, suggesting sensitivity to curved strokes (digits like **0, 6, and 8**).
+- Other neurons emphasize **vertical or diagonal strokes**, corresponding to digits such as **1, 4, or 7**.
+- This indicates that even without convolutional layers, FCNNs learn **primitive visual feature detectors** in early layers.
+
+However, unlike Convolutional Neural Networks, FCNNs **do not explicitly preserve spatial relationships**, which limits their performance on more complex vision tasks.
 
 ---
 
