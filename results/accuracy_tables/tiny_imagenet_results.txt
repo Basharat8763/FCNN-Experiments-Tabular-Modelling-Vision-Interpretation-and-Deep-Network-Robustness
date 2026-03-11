@@ -1,0 +1,13 @@
+Model Performance Summary
+
+Deep Sigmoid Network Accuracy: 16.8%
+ReLU + BatchNorm Accuracy: 41.4%
+
+Ablation Study
+
+Baseline (Adam lr=0.001): 41.4%
+No Dropout: 41.2%
+Learning Rate x10: 41.2%
+Learning Rate ÷10: 34.6%
+SGD Optimizer: 13.0%
+Deep Sigmoid Network: 16.8%

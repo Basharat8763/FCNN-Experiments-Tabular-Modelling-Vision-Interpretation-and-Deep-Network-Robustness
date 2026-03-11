@@ -1,0 +1,3 @@
+Standard MNIST Accuracy: 97.94%
+Shuffled MNIST Accuracy: 97.75%
+Accuracy Difference: 0.19%

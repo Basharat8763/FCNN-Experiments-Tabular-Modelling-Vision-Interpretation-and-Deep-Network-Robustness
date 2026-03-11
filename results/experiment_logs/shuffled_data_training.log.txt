@@ -1,0 +1,16 @@
+Epoch [1/15], Loss: 0.4381
+Epoch [2/15], Loss: 0.1728
+Epoch [3/15], Loss: 0.1188
+Epoch [4/15], Loss: 0.0880
+Epoch [5/15], Loss: 0.0692
+Epoch [6/15], Loss: 0.0542
+Epoch [7/15], Loss: 0.0438
+Epoch [8/15], Loss: 0.0356
+Epoch [9/15], Loss: 0.0294
+Epoch [10/15], Loss: 0.0239
+Epoch [11/15], Loss: 0.0175
+Epoch [12/15], Loss: 0.0156
+Epoch [13/15], Loss: 0.0113
+Epoch [14/15], Loss: 0.0104
+Epoch [15/15], Loss: 0.0085
+Test Accuracy (Shuffled MNIST): 0.9775
