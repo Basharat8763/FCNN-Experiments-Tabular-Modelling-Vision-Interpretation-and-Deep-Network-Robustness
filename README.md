@@ -377,7 +377,7 @@ Controlled modifications were applied to the ReLU + BatchNorm baseline model.
 
 1. Clone the repository
 
-git clone https://github.com/Basharat8763/FCNN-Experiments-Tabular-Modelling-Vision-Interpretation-and-Deep-Network-Robustness.git
+git clone https://github.com/Basharat8763/FCNN-Experiments-Tabular-Modelling-Vision-Interpretation-and-Deep-Network-Robustness
 
 2. Install dependencies
 
