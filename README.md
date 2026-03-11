@@ -52,7 +52,6 @@ fcnn-deep-learning-experiments
 ├── figures
 │   ├── weight_heatmaps
 │   ├── gradient_norm_plots
-│   └── training_curves
 │
 ├── results
 │   ├── experiment_logs
