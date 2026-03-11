@@ -115,6 +115,10 @@ Target variable:
 - ≤50K → Class 0
 - >50K → Class 1
 
+Download it from:
+
+https://archive.ics.uci.edu/dataset/2/adult
+
 ---
 
 ## 2. MNIST Handwritten Digit Dataset
@@ -129,6 +133,10 @@ Dataset properties:
 - grayscale
 
 Each image is flattened into a **784-dimensional vector** for FCNN training.
+
+Download it from:
+
+https://www.kaggle.com/datasets/hojjatk/mnist-dataset
 
 ---
 
@@ -385,5 +393,5 @@ Experiment outputs and logs are stored in the `results/` directory.
 
 # Author
 
-B.Tech Computer Science and Engineering  
+Basharat
 Focus Area: Artificial Intelligence, Machine Learning, and Data Science
