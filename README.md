@@ -407,7 +407,8 @@ Experiment outputs and logs are stored in the `results/` directory.
 
 ### Gradient Norm Comparison (Vanishing Gradient Demonstration)
 
-![Gradient Norm Comparison](figures/gradient_norm_plots/gradient_norm_comparison.png)
+<img width="1323" height="766" alt="image" src="https://github.com/user-attachments/assets/29c1f807-b72a-4f77-87da-266137b8c292" />
+
 
 This plot compares the gradient magnitude of the **first layer** during training for two deep neural network configurations:
 
@@ -426,7 +427,7 @@ This experiment clearly illustrates why **deep networks with sigmoid activations
 
 ### MNIST First Layer Weight Visualization
 
-![MNIST Neuron Heatmaps](figures/weight_heatmaps/mnist_neuron_heatmaps.png)
+<img width="1506" height="626" alt="image" src="https://github.com/user-attachments/assets/8b91428d-5a44-471a-bbac-6348882761a8" />
 
 The figure above visualizes the **incoming weights of 10 neurons** from the first hidden layer of the Fully Connected Neural Network trained on the MNIST dataset.
 
